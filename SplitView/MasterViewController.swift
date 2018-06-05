@@ -13,10 +13,10 @@ protocol PokemonSelectionDelegate: class {
 
 class MasterViewController: UITableViewController {
     let pokemons = [
-        Pokemon(name: "Charmander", description: "1", iconName: "Charmander", type: .Fire),
-        Pokemon(name: "Squirtle", description: "2", iconName: "Squirtle", type: .Water),
-        Pokemon(name: "Bulbasaur", description: "3", iconName: "Bulbasaur", type: .Wood),
-        Pokemon(name: "Dugtrio", description: "4", iconName: "Dugtrio", type: .Earth)
+        Pokemon(name: "Charmander", description: "A flame burns on the tip of its tail from birth. It is said that a Charmander dies if its flame ever goes out.", iconName: "Charmander", type: .Fire),
+        Pokemon(name: "Squirtle", description: "This Tiny Turtle Pokémon draws its long neck into its shell to launch incredible water attacks with amazing range and accuracy. The blasts can be quite powerful.", iconName: "Squirtle", type: .Water),
+        Pokemon(name: "Bulbasaur", description: "Tthe Seed Pokémon. A young Bulbasaur uses the nutrients from its seed for the energy it needs to grow.", iconName: "Bulbasaur", type: .Wood),
+        Pokemon(name: "Dugtrio", description: "This Pokémon is able to tunnel deep beneath the Earth's surface.", iconName: "Dugtrio", type: .Earth)
     ]
     weak var delegate: PokemonSelectionDelegate?
     
